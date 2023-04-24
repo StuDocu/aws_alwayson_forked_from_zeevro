@@ -39,12 +39,14 @@ Click Load Temporary Add-on... and select the manifest.json file.
 
 ## Using the extension  
 
-First you will need to configure some properties in the Options menu. Each property has additional info that you can read to help you set it up properly:
+First you will need to configure some properties in the Options menu. Each property has additional info that you can read to help you set it up properly. @iSWORD also listed the values [here](https://studocu.slack.com/archives/C03PB1KG36J/p1674557120562929):
+
 - Domain name: studocu.com
 - Identity provider ID: C00yxev13
 - Service provider ID: 308937699935
 - SAML provider: GoogleLogin
 
+Then click on the extension's "A" button and it should load the roles and keep them in sync.
 ![Options](img/opts.png)  
 When you are done, press the Save button and exit the Options menu.  
 Now you can add your user's IAM role or roles.    
